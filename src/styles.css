@@ -1,0 +1,19 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #chat-window {
+    scrollbar-width: thin;
+    scrollbar-color: #1976d2 transparent;
+  }
+  
+  #chat-window::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  #chat-window::-webkit-scrollbar-thumb {
+    background-color: #1976d2;
+  }
+  
